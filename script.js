@@ -22,7 +22,6 @@ document.querySelector('#push').onclick = function() {
     }
 }
 
-// watering week buttons
 const wateredBtn = document.querySelectorAll('.wateredBtn'); 
 for (let singleBtn of wateredBtn) {
     singleBtn.addEventListener('click', function() {
@@ -30,7 +29,6 @@ for (let singleBtn of wateredBtn) {
     });
 }
 
-// clear week btn
 const week1 = document.querySelectorAll('.week1');
 const clearWeek1Btn = document.querySelector("#btnClearPlant1");
 clearWeek1Btn.addEventListener('click', function(){
@@ -111,7 +109,6 @@ clearWeek10Btn.addEventListener('click', function(){
 }
 });
 
-// start new week (clear all btn)
 const btnClearWeek = document.querySelector('#btnClearWeek');
 btnClearWeek.addEventListener('click', function (){
     for (let singleBtn of wateredBtn) {

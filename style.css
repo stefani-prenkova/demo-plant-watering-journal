@@ -1,0 +1,263 @@
+body {
+    background-color: #E6F1E3;
+    color: #340F11;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.listOfPlants {
+    background-color: #FEFFFE;
+    height: 430px;
+    border-color: #FEFFFE;
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+@media screen and (min-width: 1500px) and (max-width: 1700px)
+{
+    .listOfPlants{
+        width: 350px;
+        height: 460px;
+    }
+
+    .wateringWeek{
+        width: 800px;
+        height: 460px;
+    }
+
+    .notesBox{
+        width: 700px; 
+    }
+
+    #notesTextArea{
+        width: 630px;
+    }
+}
+@media screen and (min-width: 1372px) and (max-width: 1499px)
+{
+    .listOfPlants{
+        width: 300px;
+    }
+
+    .wateringWeek{
+        width: 750px;
+        height: 550px;
+    }
+}
+@media screen and (min-width: 1070px) and (max-width: 1371px)
+{
+    .listOfPlants{
+        width: 250px;
+    }
+
+    .wateringWeek{
+        width: 500px;
+        height: 550px;
+    }
+}
+
+#h2PlantList {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.wateringWeek {
+    background-color: #FEFFFE;
+    height: 430px;
+    border-color: #FEFFFE;
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#h2WeekDays {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.notesBox {
+    background-color: #EBE0F4;
+    width: 900px;
+    border-color: #EBE0F4;
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 30px; 
+}
+
+#notesTextArea {
+    background-color: #EBE0F4;
+    width: 800px;
+    border-color: #EBE0F4;
+    border-width: 20px;
+    border-style: solid;
+    border-left: 0px;
+    margin-left: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+textarea:focus {
+    outline: none;
+  }
+
+#h2Notes {
+    margin-left: 50px;
+}
+
+#inputBoxNewPlant {
+    background-color: #EBE0F4;
+    border-color: #EBE0F4;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+::placeholder {
+    color: #4EA238;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+  }
+
+.navAndLogos {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.listAndWeek{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.addNotes {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#elementWateringJorunalLogo {
+    width: 300px;
+    height: auto;
+}
+
+#titleMonday, #titleTuesday, #titleWednesday, #titleThursday, 
+#titleFriday, #titleSaturday, #titleSunday {
+    color: #EBE0F4;
+}
+
+.wateredBtn{
+    color: #FEFFFE;
+    background-color: #B58ED4;
+    border-width: 1.5px;
+    border-style: none;
+    border-radius: 50px;
+    padding: 11px; 
+    font-size: 9.5px;
+}
+
+#btnClearWeek {
+    color: #FEFFFE;
+    background-color: #B58ED4;
+    border-width: 1.5px;
+    border-style: none;
+    border-radius: 50px;
+    padding: 11px; 
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 1371px) {
+    #btnClearWeek {
+        margin-left: 0;
+    }
+
+    #push {
+
+    }
+}
+
+#btnClearPlant1, #btnClearPlant2, #btnClearPlant3, #btnClearPlant4, #btnClearPlant5, 
+#btnClearPlant6, #btnClearPlant7, #btnClearPlant8, #btnClearPlant9, #btnClearPlant10 {
+    color: #FEFFFE;
+    background-color: #EBE0F4;
+    border-width: 1.5px;
+    border-style: none;
+    border-color: #EBE0F4;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+} 
+
+.btnDeletePlantOnList {
+    color: #FEFFFE;
+    background-color: #EBE0F4;
+    border-width: 1.5px;
+    border-style: none;
+    border-color: #EBE0F4;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+} 
+
+#navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #340F11; 
+
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #340F11; 
+	background-color: #EBE0F4; 
+    border-radius: 50px;
+	} 
+
+#push {
+    color: #FEFFFE;
+    background-color: #B58ED4;
+    border-width: 1.5px;
+    border-style: none;
+    border-radius: 50px;
+    padding: 11px; 
+    font-size: 10px;
+}
+
+.plant {
+    padding-top: 6px;
+    padding-bottom: 2px;
+    padding-left: 11px;
+}
+
+th {
+    width: 88px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}

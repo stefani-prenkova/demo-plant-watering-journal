@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Watering Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="navAndLogos">
+            <img src="elements/element-watering-journal-logo.png" alt="plant watering journal" id="elementWateringJorunalLogo">
+            <img src="elements/Indoor Garden Logo PNG.png" alt="logo" width="224" height="115" id="elementIndoorGardenLogo">
+            <nav id="navbar">
+                <ul>
+                    <li> <a href="https://indoorgarden.mk/">Buy more plants</a></li>
+                    <li> <a href="https://www.houseplant411.com/">Indoor plants advisor</a> </li>                  
+                </ul>
+            </nav>
+        </section>
+       
+          <section class="listAndWeek">
+            <div class="listOfPlants">
+                   <h2 id="h2PlantList">List of my lovely plants</h2>
+                <div class="addNewPlants">
+                    <div id="newPlant">
+                        <input type="text" id="inputBoxNewPlant" placeholder="Add another plant">
+                        <button id="push">Add</button>
+                    </div>
+                    <div id="list"></div>
+                </div>
+            </div>  
+
+        <div class="wateringWeek">  
+            <h2 id="h2WeekDays">Mark the day of the week you hydrated your plants <span><button id="btnClearWeek">start a new week</button></span></h2>
+            <table class="wateringTable">
+                <div class="weekDaysHeadings"> 
+                    <tr>
+                        <th id="titleMonday">Monday</th> 
+                        <th id="titleTuesday">Tuesday</th>
+                        <th id="titleWednesday">Wednesday</th>
+                        <th id="titleThursday">Thursday</th>
+                        <th id="titleFriday">Friday</th>
+                        <th id="titleSaturday">Saturday</th>
+                        <th id="titleSunday">Sunday</th>
+                        <th> </th>
+                    </tr>
+                </div>
+                <div class="weekBtnSelectors"> 
+                    <tr>
+                        <td><button class="wateredBtn week1"></button></td>
+                        <td><button class="wateredBtn week1"></button></td>
+                        <td><button class="wateredBtn week1"></button></td>
+                        <td><button class="wateredBtn week1"></button></td>
+                        <td><button class="wateredBtn week1"></button></td>
+                        <td><button class="wateredBtn week1"></button></td>
+                        <td><button class="wateredBtn week1"></button></td>
+                        <td><button id="btnClearPlant1">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="wateredBtn week2"></button></td>
+                        <td><button class="wateredBtn week2"></button></td>
+                        <td><button class="wateredBtn week2"></button></td>
+                        <td><button class="wateredBtn week2"></button></td>
+                        <td><button class="wateredBtn week2"></button></td>
+                        <td><button class="wateredBtn week2"></button></td>
+                        <td><button class="wateredBtn week2"></button></td>
+                        <td><button id="btnClearPlant2">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="wateredBtn week3"></button></td>
+                        <td><button class="wateredBtn week3"></button></td>
+                        <td><button class="wateredBtn week3"></button></td>
+                        <td><button class="wateredBtn week3"></button></td>
+                        <td><button class="wateredBtn week3"></button></td>
+                        <td><button class="wateredBtn week3"></button></td>
+                        <td><button class="wateredBtn week3"></button></td>
+                        <td><button id="btnClearPlant3">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="wateredBtn week4"></button></td>
+                        <td><button class="wateredBtn week4"></button></td>
+                        <td><button class="wateredBtn week4"></button></td>
+                        <td><button class="wateredBtn week4"></button></td>
+                        <td><button class="wateredBtn week4"></button></td>
+                        <td><button class="wateredBtn week4"></button></td>
+                        <td><button class="wateredBtn week4"></button></td>
+                        <td><button id="btnClearPlant4">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="wateredBtn week5"></button></td>
+                        <td><button class="wateredBtn week5"></button></td>
+                        <td><button class="wateredBtn week5"></button></td>
+                        <td><button class="wateredBtn week5"></button></td>
+                        <td><button class="wateredBtn week5"></button></td>
+                        <td><button class="wateredBtn week5"></button></td>
+                        <td><button class="wateredBtn week5"></button></td>
+                        <td><button id="btnClearPlant5">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="wateredBtn week6"></button></td>
+                        <td><button class="wateredBtn week6"></button></td>
+                        <td><button class="wateredBtn week6"></button></td>
+                        <td><button class="wateredBtn week6"></button></td>
+                        <td><button class="wateredBtn week6"></button></td>
+                        <td><button class="wateredBtn week6"></button></td>
+                        <td><button class="wateredBtn week6"></button></td>
+                        <td><button id="btnClearPlant6">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="wateredBtn week7"></button></td>
+                        <td><button class="wateredBtn week7"></button></td>
+                        <td><button class="wateredBtn week7"></button></td>
+                        <td><button class="wateredBtn week7"></button></td>
+                        <td><button class="wateredBtn week7"></button></td>
+                        <td><button class="wateredBtn week7"></button></td>
+                        <td><button class="wateredBtn week7"></button></td>
+                        <td><button id="btnClearPlant7">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="wateredBtn week8"></button></td>
+                        <td><button class="wateredBtn week8"></button></td>
+                        <td><button class="wateredBtn week8"></button></td>
+                        <td><button class="wateredBtn week8"></button></td>
+                        <td><button class="wateredBtn week8"></button></td>
+                        <td><button class="wateredBtn week8"></button></td>
+                        <td><button class="wateredBtn week8"></button></td>
+                        <td><button id="btnClearPlant8">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="wateredBtn week9"></button></td>
+                        <td><button class="wateredBtn week9"></button></td>
+                        <td><button class="wateredBtn week9"></button></td>
+                        <td><button class="wateredBtn week9"></button></td>
+                        <td><button class="wateredBtn week9"></button></td>
+                        <td><button class="wateredBtn week9"></button></td>
+                        <td><button class="wateredBtn week9"></button></td>
+                        <td><button id="btnClearPlant9">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="wateredBtn week10"></button></td>
+                        <td><button class="wateredBtn week10"></button></td>
+                        <td><button class="wateredBtn week10"></button></td>
+                        <td><button class="wateredBtn week10"></button></td>
+                        <td><button class="wateredBtn week10"></button></td>
+                        <td><button class="wateredBtn week10"></button></td>
+                        <td><button class="wateredBtn week10"></button></td>
+                        <td><button id="btnClearPlant10">x</button></td>
+                    </tr>
+                </div>  
+            </table>
+            </div>  
+        </section>
+        
+        <section class="addNotes"> 
+            <div class="notesBox"> 
+                <h2 id="h2Notes">Notes</h2>
+                <textarea name="" id="notesTextArea" cols="100" rows="5" placeholder="Write something nice..."></textarea>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
